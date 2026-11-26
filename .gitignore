@@ -1,0 +1,13 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+# Generated data and full-run caches (keep separately if desired)
+**/neural_bandit_jax_results/
+**/adamw_neural_bandit_results/
+scikit_learn_data/
+*.npz

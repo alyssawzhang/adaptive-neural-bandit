@@ -1,0 +1,10 @@
+# Direct dependencies used by both notebooks.
+# JAX version recorded in executed notebook outputs; other versions not recorded.
+# CPU installation by default; use a compatible GPU-enabled JAX environment for full runs.
+jax==0.11.1
+numpy
+pandas
+matplotlib
+scikit-learn
+# Notebook execution outside Colab
+jupyterlab
