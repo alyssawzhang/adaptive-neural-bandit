@@ -1,0 +1,102 @@
+{
+  "note": "Documentation snapshot of notebook constants; notebooks are the executable source of truth and do not read this JSON.",
+  "dataset": {
+    "name": "UCI Forest Cover Type (Covertype)",
+    "observations": 581012,
+    "raw_features": 54,
+    "context_features": 94,
+    "actions": 7,
+    "quantile_bins_per_continuous_feature": 5
+  },
+  "T": 2500000,
+  "T_source": "inferred from original Figure 1",
+  "n_runs": 10,
+  "data_seed": 42,
+  "experiment_seed": 20261115,
+  "run_starts": [
+    262173,
+    291602,
+    81021,
+    186783,
+    482562,
+    340987,
+    473909,
+    174264,
+    181092,
+    405233
+  ],
+  "run_seeds": [
+    240230488,
+    778896481,
+    707787953,
+    1105477369,
+    19569818,
+    1936129619,
+    968589200,
+    635380296,
+    1955263105,
+    1207452093
+  ],
+  "gamma": 0.005,
+  "gamma_model": 0.1,
+  "hidden_sizes": [
+    1,
+    5,
+    25,
+    50,
+    100
+  ],
+  "optimizers": {
+    "SGD": {
+      "learning_rates": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "weight_decay": 0
+    },
+    "Adam": {
+      "learning_rates": [
+        0.0001,
+        0.001,
+        0.01
+      ],
+      "weight_decay": 0
+    },
+    "AdamW": {
+      "learning_rates": [
+        0.0001,
+        0.001,
+        0.01
+      ],
+      "weight_decay": 0.01
+    }
+  },
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.999,
+  "adam_epsilon": 1e-08,
+  "algorithms": [
+    "NB2",
+    "NB3"
+  ],
+  "environments": [
+    "stationary",
+    "nonstationary"
+  ],
+  "drift_interval": 500000,
+  "last_n": 100000,
+  "offline_reference_accuracy": 0.93,
+  "run_nb3_extension": true,
+  "recovery_metric": {
+    "pre_window": 50000,
+    "rolling_window": 10000,
+    "threshold_fraction": 0.9
+  },
+  "recorded_environment": {
+    "platform": "Google Colab",
+    "jax_version": "0.11.1",
+    "device": "cuda:0",
+    "python_version_in_output_paths": "3.13",
+    "other_package_versions": "not recorded"
+  }
+}
