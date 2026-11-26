@@ -100,7 +100,7 @@ All neural networks retain the one-hidden-layer sigmoid architecture and inverse
 
 ![Baseline rolling accuracy in stationary and non-stationary streams](results/figures/baseline_rolling_accuracy.png)
 
-The reproduction captures online learning and recovery following simulated concept drift, although it does not match the original numerical accuracies or the original NB3 advantage in the non-stationary setting.
+The reproduction captures online learning and recovery following simulated concept drift, although it does not match the original numerical accuracies or the original NB3's slight advantage in the non-stationary setting.
 
 ### Adaptive optimizer ablation
 
