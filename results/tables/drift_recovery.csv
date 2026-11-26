@@ -1,0 +1,7 @@
+algorithm,optimizer,mean_recovery_rounds,median_recovery_rounds,drifts_recovered,total_drifts
+NB2,SGD,161974.0,143668.5,4,4
+NB2,Adam,121076.25,109463.5,4,4
+NB2,AdamW,55119.5,54646.5,4,4
+NB3,SGD,232104.5,228058.0,4,4
+NB3,Adam,68424.5,65801.5,4,4
+NB3,AdamW,45024.75,40287.5,4,4

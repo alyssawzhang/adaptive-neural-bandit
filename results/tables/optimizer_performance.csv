@@ -1,0 +1,13 @@
+algorithm,optimizer,environment,last100k_accuracy_mean,last100k_accuracy_std,final_oracle_regret,runtime_minutes
+NB2,Adam,nonstationary,0.698383,0.024985,774801.8,26.039392
+NB2,AdamW,nonstationary,0.704171,0.003279,819624.1,26.11707
+NB2,SGD,nonstationary,0.562538,0.024427,1194658.0,21.769473
+NB2,Adam,stationary,0.791908,0.006536,572637.5,26.029157
+NB2,AdamW,stationary,0.72048,0.004598,729590.2,26.116211
+NB2,SGD,stationary,0.626799,0.009515,979460.5,22.069832
+NB3,Adam,nonstationary,0.723425,0.023257,750668.6,26.083538
+NB3,AdamW,nonstationary,0.699877,0.006551,802427.7,26.151194
+NB3,SGD,nonstationary,0.507462,0.041821,1292228.0,21.798039
+NB3,Adam,stationary,0.794465,0.006053,578296.0,26.099324
+NB3,AdamW,stationary,0.722471,0.005144,729966.2,26.157945
+NB3,SGD,stationary,0.617994,0.01792,1025340.0,22.139415

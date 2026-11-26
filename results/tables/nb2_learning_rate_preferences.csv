@@ -1,0 +1,10 @@
+algorithm,optimizer,environment,learning_rate,model_probability
+NB2,SGD,stationary,0.01,0.933333
+NB2,SGD,stationary,0.1,0.033333
+NB2,SGD,stationary,1.0,0.033333
+NB2,Adam,stationary,0.0001,0.033333
+NB2,Adam,stationary,0.001,0.033333
+NB2,Adam,stationary,0.01,0.933333
+NB2,AdamW,stationary,0.0001,0.033333
+NB2,AdamW,stationary,0.001,0.933333
+NB2,AdamW,stationary,0.01,0.033333

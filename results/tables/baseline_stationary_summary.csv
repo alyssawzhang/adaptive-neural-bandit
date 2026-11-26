@@ -1,0 +1,3 @@
+algorithm,paper_last100k_accuracy,reproduction_mean,reproduction_std,difference
+NeuralBandit2,0.76,0.632284,0.017004,-0.127716
+NeuralBandit3,0.73,0.613411,0.017389,-0.116589

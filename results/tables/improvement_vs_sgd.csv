@@ -1,0 +1,9 @@
+algorithm,environment,optimizer,accuracy_change_vs_SGD,final_regret_change_vs_SGD
+NB2,stationary,Adam,0.165109,-406823.017377
+NB2,stationary,AdamW,0.093681,-249870.309761
+NB2,nonstationary,Adam,0.135845,-419856.615242
+NB2,nonstationary,AdamW,0.141633,-375034.313309
+NB3,stationary,Adam,0.176471,-447043.818685
+NB3,stationary,AdamW,0.104477,-295373.611373
+NB3,nonstationary,Adam,0.215963,-541559.618924
+NB3,nonstationary,AdamW,0.192415,-489800.516502
