@@ -28,7 +28,7 @@ The implementation uses JAX to compile the sequential online-learning loop and b
 | [01 — Reproduction](notebooks/01_neural_bandit_reproduction.ipynb) | Data preparation, original SGD neural-network updates, EXP3, NB2 and NB3; stationary and non-stationary experiments. |
 | [02 — Adaptive optimization](notebooks/02_adamw_neural_bandit.ipynb) | SGD/Adam/AdamW implementations; primary NB2 and secondary NB3 ablations; accuracy, regret, recovery, runtime and learning-rate preference analysis. |
 
-The notebooks are the executable experiment code. Configuration constants appear near the top of each notebook. [experiment_config.json](configs/experiment_config.json) is a human- and machine-readable snapshot of the settings, not an input read by the notebooks.
+The notebooks are the executable experiment code. Configuration constants appear near the top of each notebook. [experiment_config.json](configs/experiment_config.json) is a readable snapshot of the settings, not an input read by the notebooks.
 
 ## Setup and execution
 
